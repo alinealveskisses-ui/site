@@ -42,21 +42,31 @@
             <h2>Projetos</h2>
             <article>
                 <h3>Portifólio</h3>
-                <p>Este foi o primeiro site que escrevi.</p>
+                <p>
+                    Este foi o primeiro site que escrevi.
+                </p>
             </article>
         </section>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Você pode entrar em contato comigo através do email: </p>
-            <address>
-                E mail: <a href="mailto:aline.alves.oliveira@outlook.com">aline.alves.oliveira@outlook.com</a><br>
-                Telefone: (47) 99749-5474
-            </address>
-            <footer>
-                <p>© 2026 Aline. Todos os direitos reservados.</p>
-            </footer>
-
+        <footer>
+            <p>© 2026 Aline. Todos os direitos reservados.</p>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Você pode entrar em contato comigo através do email: </p>
+                <address>
+                    E mail: <a href="mailto:aline.alves.oliveira@outlook.com">aline.alves.oliveira@outlook.com</a><br>
+                    Telefone: (47) 99749-5474
+                </address>
+                <form action="enviar_contato" method="post">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem"></textarea><br>
+                    <input type="submit" value="Enviar">
+            </section>
+        </footer>
 </body>
 
 </html>
