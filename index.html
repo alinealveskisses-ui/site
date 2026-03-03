@@ -54,9 +54,9 @@
                 <p>Tem um projeto em mente entre em contado: </p>
                 <form action="enviar_contato" method="post">
                     <label for="nome">Nome:</label><br>
-                    <input type="text" id="nome" name="nome"><br>
+                    <input type="text" id="nome" name="nome" required><br>
                     <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email"><br>
+                    <input type="email" id="email" name="email" required><br>
                     <label for="telefone">telefone:</label><br>
                     <input type="tel" id="telefone" name="telefone"><br>
                     <label for="assunto">Assunto:</label><br>
@@ -66,7 +66,7 @@
                         <option value="outros">Outros</option>
                     </select><br>
                     <label for="mensagem">Mensagem:</label><br>
-                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
                     <input type="checkbox" id="incrição" name="incrição" value="sim">
                     <label for="incrição">Deseja receber minha newsletters? Fique por dentro</label>
                     <br>
