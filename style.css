@@ -4,7 +4,7 @@
 }
 
 p{
-    
+    color: red;
     font-family: 'Courier New', Courier, monospace;
 }
 div{
@@ -13,10 +13,7 @@ div{
     padding: 10px;
     margin: 10px;
 }
-#paragrafo2{
-    color: red;
-    font-size: 18px;
-}   
+
 .negrito{
     font-weight: bold;
 }   
